@@ -1,0 +1,99 @@
+{
+    "programs": [
+        {
+            "name": "Discord",
+            "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86",
+            "extension": "exe"
+        },
+        {
+            "name": "Chrome",
+            "url": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B31C59013-F60B-6F39-1A46-7004B4E62069%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26brand%3DCHBD%26installdataindex%3Dempty/update2/installers/ChromeSetup.exe",
+            "extension": "exe"
+        },
+        {
+            "name": "Opera",
+            "url": "https://net.geo.opera.com/opera/stable/windows",
+            "extension": "exe"
+        },
+        {
+            "name": "Lightshot",
+            "url": "https://app.prntscr.com/build/setup-lightshot.exe",
+            "extension": "exe"
+        },
+        {
+            "name": "Audacity",
+            "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.3.3/audacity-win-3.3.3-x64.exe",
+            "extension": "exe"
+        },
+        {
+            "name": "Steam",
+            "url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe",
+            "extension": "exe"
+        },
+        {
+            "name": "Figma",
+            "url": "https://desktop.figma.com/win/FigmaSetup.exe",
+            "extension": "exe"
+        },
+        {
+            "name": "NodeJS",
+            "url": "https://nodejs.org/dist/v21.0.0/node-v21.0.0-x64.msi",
+            "extension": "msi"
+        },
+        {
+            "name": "Git",
+            "url": "https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/Git-2.42.0.2-64-bit.exe",
+            "extension": "exe"
+        },
+        {
+            "name": "Visual Studio Code",
+            "url": "https://az764295.vo.msecnd.net/stable/f1b07bd25dfad64b0167beb15359ae573aecd2cc/VSCodeUserSetup-x64-1.83.1.exe",
+            "extension": "exe"
+        },
+        {
+            "name": "Synthesia",
+            "url": "https://synthesiagame.com/get?platform=win",
+            "extension": "exe"
+        },
+        {
+            "name": "Open Broadcast Software",
+            "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-29.1.3-Full-Installer-x64.exe",
+            "extension": "exe"
+        },
+        {
+            "name": "Notepad++",
+            "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-29.1.3-Full-Installer-x64.exe",
+            "extension": "exe"
+        },
+        {
+            "name": "Python",
+            "url": "https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe",
+            "extension": "exe"
+        },
+        {
+            "name": "Visual Studio",
+            "url": "https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030:2f3a9bd4bded4337856ab839f20aa8e6",
+            "extension": "exe"
+        },
+        {
+            "name": "Office 365",
+            "url": "https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=O365ProPlusRetail&platform=Def&language=en-us&TaxRegion=db&correlationId=89bacc1d-2015-499a-a28a-e62be679cced&token=06c5f5a7-20d0-4a70-a324-100141230f14&version=O16GA&source=O15OLSO365&Br=2",
+            "extension": "exe"
+        },
+        {
+            "name": "GeForce Experience",
+            "url": "https://uk.download.nvidia.com/GFE/GFEClient/3.27.0.112/GeForce_Experience_v3.27.0.112.exe",
+            "extension": "exe"
+        },
+        {
+            "name": "WinRAR",
+            "url": "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-624.exe",
+            "extension": "exe"
+        },
+        {
+            "name": "7zip",
+            "url": "https://www.7-zip.org/a/7z2301-x64.exe",
+            "extension": "exe"
+        }
+    ]
+}
