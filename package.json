@@ -1,5 +1,5 @@
 {
-  "name": "program_installer",
+  "name": "program-downloader",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
