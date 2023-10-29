@@ -11,36 +11,27 @@ async function downloadToTmp(url, extension = "exe", name = getUniqueName()) {
     const fileName = "tmp/" + name + "." + extension;
     const file = fs.createWriteStream(fileName);
 
-    new Promise((resolve, reject) => {
-        if(isHTTPS) {
-            https.get(url, function(response) {
-                response.pipe(file);
-                
-                file.on("finish", () => {
-                    file.close();
-                    resolve(fileName);
-                });
+    await new Promise((resolve, reject) => {
+        const protocol = isHTTPS ? https : http;
 
-                file.on("error", (error) => {
-                    file.close();
-                    reject(error.message);
-                })
-            });
-        } else {
-            http.get(url, function(response) {
-                response.pipe(file);
-                
-                file.on("finish", () => {
-                    file.close();
-                    resolve(fileName);
-                });
+        const request = protocol.get(url, function(response) {
+            response.pipe(file);
 
-                file.on("error", (error) => {
-                    file.close();
-                    reject(error.message);
-                })
+            response.on('end', () => {
+                file.end();
+                resolve(fileName);
             });
-        }
+
+            response.on('error', (error) => {
+                file.end();
+                reject(error);
+            });
+        });
+
+        request.on('error', (error) => {
+            file.end();
+            reject(error);
+        });
     });
 
     return fileName;

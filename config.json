@@ -99,6 +99,26 @@
             "name": "Virtual Box",
             "url": "https://download.virtualbox.org/virtualbox/7.0.12/VirtualBox-7.0.12-159484-Win.exe",
             "extension": "exe"
+        },
+        {
+            "name": "K-Lite Codec Pack Basic",
+            "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1785_Basic.exe",
+            "extension": "exe"
+        },
+        {
+            "name": "pgadmin4-7.8-x64",
+            "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v7.8/windows/pgadmin4-7.8-x64.exe",
+            "extension": "exe"
+        },
+        {
+            "name": "Blender",
+            "url": "https://mirrors.dotsrc.org/blender/release/Blender3.6/blender-3.6.5-windows-x64.msi",
+            "extension": "msi"
+        },
+        {
+            "name": "Epic Games Launcher",
+            "url": "https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi",
+            "extension": "msi"
         }
     ]
 }
