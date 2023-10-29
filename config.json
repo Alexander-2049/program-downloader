@@ -119,6 +119,11 @@
             "name": "Epic Games Launcher",
             "url": "https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi",
             "extension": "msi"
+        },
+        {
+            "name": "VLC media player",
+            "url": "https://get.videolan.org/vlc/3.0.19/win64/vlc-3.0.19-win64.exe",
+            "extension": "exe"
         }
     ]
 }
